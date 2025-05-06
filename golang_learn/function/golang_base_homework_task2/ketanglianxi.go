@@ -1,4 +1,4 @@
-package golang_2_jj
+package golang_base_homework_task2
 
 import "fmt"
 

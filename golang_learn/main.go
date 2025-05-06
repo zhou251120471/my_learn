@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"golang_learn/function/golang_1_jc"
-	"golang_learn/function/golang_2_jj"
+	"golang_learn/function/golang_base_homework_task1"
+	"golang_learn/function/golang_base_homework_task2"
 )
 
 // golang作业
@@ -22,7 +22,7 @@ func golang_homework() {
 	/*---------------------21. 合并两个有序链表--------------------------*/
 	l1 := []int{1, 2, 4}
 	l2 := []int{1, 3, 4}
-	golang_1_jc.MergeTwoLists(l1, l2)
+	golang_base_homework_task1.MergeTwoLists(l1, l2)
 	/*---------------------344. 反转字符串-------------------------力扣-----------*/
 	//s := []byte{'h', 'e', 'l', 'l', 'o'}
 	//golang_1_jc.ReverseString(s)
@@ -65,17 +65,17 @@ func exercise() {
 }
 
 func test() {
-	creditCard := &golang_2_jj.CreditCard{Balance: 0, Limit: 1000}
-	debitCard := &golang_2_jj.DebitCard{Balance: 500}
+	creditCard := &golang_base_homework_task2.CreditCard{Balance: 0, Limit: 1000}
+	debitCard := &golang_base_homework_task2.DebitCard{Balance: 500}
 
 	fmt.Println("使用信用卡购买:")
-	golang_2_jj.PurchaseItem(creditCard, 800)
+	golang_base_homework_task2.PurchaseItem(creditCard, 800)
 
 	fmt.Println("\n使用借记卡购买:")
-	golang_2_jj.PurchaseItem(debitCard, 300)
+	golang_base_homework_task2.PurchaseItem(debitCard, 300)
 
 	fmt.Println("\n再次使用借记卡购买:")
-	golang_2_jj.PurchaseItem(debitCard, 300)
+	golang_base_homework_task2.PurchaseItem(debitCard, 300)
 }
 
 func main() {
