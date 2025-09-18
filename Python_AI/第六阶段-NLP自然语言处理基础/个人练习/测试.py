@@ -12,3 +12,4 @@ class Embedding(nn.Module):
 
     def forward(self, x):
         return self.luc
+        std
