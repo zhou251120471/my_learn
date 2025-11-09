@@ -13,4 +13,7 @@ class Embedding(nn.Module):
     def forward(self, x):
         return self.luc
         std
-        第3次提交
+        这是第一次提交
+        这是第二次提交
+        这是第三次提交
+        这是第四次提交
